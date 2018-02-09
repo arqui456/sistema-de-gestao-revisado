@@ -5,6 +5,6 @@ public class Auditory extends Resource {
 	{		
 		super();
 		this.user = userAloc; 
-		System.out.println("Recurso alocado com sucesso! (auditory): " + this.user + "!" +  Auditory.status );
+		System.out.println("Recurso alocado com sucesso!");
 	}
 }

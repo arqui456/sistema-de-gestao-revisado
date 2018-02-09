@@ -4,6 +4,6 @@ public class Laboratory extends Resource {
 	{			
 		super();
 		this.user = userAloc; 
-		System.out.println("Recurso alocado com sucesso! (laboratório): "+ this.user + "!" + Laboratory.status );
+		System.out.println("Recurso alocado com sucesso!");
 	}
 }

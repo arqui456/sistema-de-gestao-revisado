@@ -5,6 +5,6 @@ public class Projector extends Resource {
 	{	
 		super();
 		this.user = userAloc; 
-		System.out.println("Recurso alocado com sucesso! (projector): "+ this.user + "!" + Projector.status );
+		System.out.println("Recurso alocado com sucesso!");
 	}
 }
