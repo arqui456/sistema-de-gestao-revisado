@@ -1,14 +1,13 @@
-import java.util.List;
 import java.util.Scanner;
 
 public class Resource {
 	
-	protected static String id;
-	protected static String begin;
-	protected static String end;
-	protected static String status;
-	protected static String responsible;
-	protected static String user;
+	private  String id;
+	private  String begin;
+	private  String end;
+	private  String status;
+	private  String responsible;
+	private  String user;
 	Scanner input = new Scanner(System.in);
 
 	public Resource()
@@ -19,11 +18,10 @@ public class Resource {
 		this.begin = input.nextLine();
 		System.out.println("Digite a data final do recurso: ");
 		this.end = input.nextLine();
-		System.out.println("Digite o responsável pelo recurso: ");
+		System.out.println("Digite o responsavel pelo recurso: ");
 		this.responsible = input.nextLine();
-		this.status = "Em processo de alocação";
+		this.status = "Em processo de alocacao";
 	}	
-	
 	
 	public String getId() {
 		return id;
@@ -57,7 +55,24 @@ public class Resource {
 	public void updateStatus(String update){
 		this.status = update;
 	}
-	
-	
 
+	public String getUser() {
+		return user;
+	}
+	
+	public String getBegin() {
+		return begin;
+	}
+
+	public String getEnd() {
+		return end;
+	}
+
+	public String getResponsible() {
+		return responsible;
+	}
+
+	public void setUser(String user) {
+		this.user = user;
+	}
 }

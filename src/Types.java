@@ -1,0 +1,4 @@
+
+public enum Types {
+	ALUNO, PROFESSOR, PESQUISADOR, ADMINISTRADOR
+}
