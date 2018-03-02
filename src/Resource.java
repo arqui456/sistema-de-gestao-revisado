@@ -48,9 +48,9 @@ public class Resource {
 		this.status = status;
 	}
 	
-	public void addResource (){
-		
-	}
+	//public void addResource (){
+	//	
+	//}
 	
 	public void updateStatus(String update){
 		this.status = update;
